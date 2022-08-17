@@ -1,0 +1,83 @@
+.mainCard {
+  width: 67.3rem;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+  padding: 18px;
+  .left {
+    padding-left: 1.125rem;
+    margin-right: 2.5rem;
+    .mainCardImg{
+      width: 27.5rem;
+      height: 22.75rem;
+      border-radius: 10px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .footerLeft {
+      display: flex;
+      align-items: center;
+      margin-top: 2.25rem;
+      font-family: "Exo 2";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.625rem;
+      line-height: 0.75rem;
+      color: #000000;
+      .date {
+        margin-right: 0.8125rem;
+        display: flex;
+        align-items: center;
+        .dateIcon{
+            font-size: 0.75rem;
+        margin-right: 0.375rem;
+        color: 
+        #C3C3C3;
+        }
+    }
+    .author{
+        display: flex;
+        align-items: center;
+        .authorIcon{
+            font-size: 0.75rem;
+            margin-right: 0.5rem;
+            color: 
+            #C3C3C3;
+        }
+    }
+    }
+  }
+  .right{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    .titleMainCard{
+        font-family: 'Exo 2';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #3D3D3D;
+margin-bottom: 2.125rem;
+    }
+    hr{
+        width: 11.125rem;
+        border: 1px solid #DADADA;
+        margin-bottom: 1.125rem;
+    }
+    .infoMainCard{
+        font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.1875rem;
+
+color: #646464;
+    }
+  }
+}
