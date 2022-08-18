@@ -8,7 +8,7 @@ const App = () => {
     <div className="containerPage">
       <img className="containerBackground" src={background} alt="Bacground Img" />
       <Routes>
-        <Route path='/' element={<Container />} />
+        <Route path='*' element={<Container />} />
       </Routes>
     </div>
   )

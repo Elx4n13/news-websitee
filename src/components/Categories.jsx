@@ -21,15 +21,14 @@ const Categories = ({ changeCategory, searchParams }) => {
       {buttons.map((name) => (
         <NavLink
           to={`/?categories=${name.toLowerCase()}`}
-          key={name}
-          onClick={handleChange}
-        >
+            key={name}
+            onClick={handleChange}
+          >
           <button
             className={
               classButton === name.toLowerCase() ? "activeButton" : null
             }
           >
-            {" "}
             {name}
           </button>
         </NavLink>

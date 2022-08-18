@@ -2,9 +2,12 @@ import React from "react";
 import { BiTimeFive } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa";
 import "./styles/SmilarNews.scss";
-const SmilarNews = ({ item }) => {
+const SmilarNews = ({ item,showSmilar }) => {
+  const handleClick = () =>{
+    showSmilar(item.id)
+  }
   return (
-    <div className="smilarCard">
+    <div className="smilarCard" onClick={handleClick}>
       <img src={item.imageUrl} alt="News Img" />
       <div className="infoSmilarCard">{item.title}</div>
       <div className="footerSmilar">
