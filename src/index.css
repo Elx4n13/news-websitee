@@ -1,5 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width:1100px){
+    html{
+        font-size: 13px;
+    }
+}
+@media (max-width:950px){
+    html{
+        font-size: 10px;
+    }
+}
+@media (max-width:750px){
+    html{
+        font-size: 7px;
+    }
+}
+@media (max-width:550px){
+    html{
+        font-size: 5px;
+    }
 }

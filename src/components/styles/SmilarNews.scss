@@ -8,9 +8,9 @@
   margin-right: 1.25rem;
   border-radius: 10px;
   background: rgba(10, 12, 10, 0.7);
-  &:last-of-type{
+  &:last-of-type {
     margin-right: 0;
-}
+  }
   img {
     position: absolute;
     top: 0;
@@ -42,22 +42,50 @@
     font-size: 0.625rem;
     line-height: 0.75rem;
     color: #ffffff;
-    .date{
+    .date {
+      display: flex;
+      align-items: center;
+      margin-right: 0.8rem;
+      .dateIcon {
+        font-size: 0.875rem;
+        margin-right: 0.375rem;
+      }
+    }
+    .author {
+      display: flex;
+      align-items: center;
+      .authorIcon {
+        font-size: 0.875rem;
+        margin-right: 0.375rem;
+      }
+    }
+  }
+}
+@media (max-width:950px){
+  .smilarCard {
+   
+    .footerSmilar {
+      
+      font-size: 0.9rem;
+      line-height: 0.75rem;
+      color: #ffffff;
+      .date {
         display: flex;
         align-items: center;
         margin-right: 0.8rem;
-        .dateIcon{
-            font-size: 0.875rem;
-            margin-right: 0.375rem;
+        .dateIcon {
+          font-size: 1.2rem;
+          margin-right: 0.375rem;
         }
-    }
-    .author{
+      }
+      .author {
         display: flex;
         align-items: center;
-        .authorIcon{
-            font-size: 0.875rem;
-            margin-right: 0.375rem;
+        .authorIcon {
+          font-size: 1.1rem;
+          margin-right: 0.375rem;
         }
+      }
     }
   }
 }

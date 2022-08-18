@@ -1,26 +1,44 @@
 .categoriesDiv {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 3.5rem;
-    button {
-      font-family: "Exo 2";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 1rem;
-      line-height: 1.18rem;
-      color: #000000;
-      background: #ffffff;
-      border-radius: 10px;
-      height: 2.6875rem;
-      margin-right: 0.5625rem;
-      padding: 0 1.25rem;
-      outline: none;
-      border: none;
-      cursor: pointer;
-    }
-    .activeButton {
-      background-color: rgb(28, 209, 140);
-      color: white;
-    }
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+  button {
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.18rem;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 10px;
+    height: 2.6875rem;
+    margin-right: 0.5625rem;
+    padding: 0 1.25rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
   }
+  .activeButton {
+    background-color: rgb(28, 209, 140);
+    color: white;
+  }
+}
+@media (max-width:750px){
+  .categoriesDiv {
+    button {
+      font-size: 1.3rem;
+      line-height: 1.18rem;
+    }
+    
+  }
+}
+@media (max-width:550px){
+  .categoriesDiv {
+    button {
+      font-size: 1.5rem;
+      line-height: 1.18rem;
+    }
+    
+  }
+}
