@@ -24,21 +24,19 @@
     color: white;
   }
 }
-@media (max-width:750px){
+@media (max-width: 750px) {
   .categoriesDiv {
     button {
       font-size: 1.3rem;
       line-height: 1.18rem;
     }
-    
   }
 }
-@media (max-width:550px){
+@media (max-width: 550px) {
   .categoriesDiv {
     button {
       font-size: 1.5rem;
       line-height: 1.18rem;
     }
-    
   }
 }
