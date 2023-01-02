@@ -1,4 +1,4 @@
-news-react-redux.netlify.app
+https://news-react-redux.netlify.app/
 
 # Getting Started with Create React App
 
